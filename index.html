@@ -1,106 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanjay Mundhra | Lead Technologist</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f8fafc;
-            color: #1f2937;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 5px;
-        }
-        h2 {
-            font-size: 22px;
-            margin-top: 40px;
-            border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 6px;
-        }
-        .subtitle {
-            font-size: 18px;
-            color: #4b5563;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        a {
-            color: #2563eb;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .skills span {
-            display: inline-block;
-            background: #e5e7eb;
-            padding: 6px 10px;
-            margin: 5px 5px 0 0;
-            border-radius: 6px;
-            font-size: 14px;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #6b7280;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjay Mundhra | Lead Technologist</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+  </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Sanjay Mundhra</h1>
-        <div class="subtitle">Lead Technologist | Laravel & PHP Specialist</div>
 
-        <h2>About Me</h2>
-        <p>
-            I am a Lead Technologist with over 10 years of experience building scalable, secure,
-            and high-performance web applications. I specialize in Laravel-based backend systems
-            and full-stack development, with strong experience in fintech and sports-tech platforms.
-            I enjoy solving complex problems, improving system architecture, and mentoring developers.
-        </p>
+<body class="bg-slate-50 text-slate-800">
 
-        <h2>Core Skills</h2>
-        <div class="skills">
-            <span>PHP</span>
-            <span>Laravel</span>
-            <span>MySQL</span>
-            <span>JavaScript</span>
-            <span>Vue.js</span>
-            <span>Redis</span>
-            <span>Docker</span>
-            <span>AWS</span>
-            <span>REST APIs</span>
-            <span>System Design</span>
+  <!-- Container -->
+  <div class="max-w-6xl mx-auto px-6 py-12">
+
+    <!-- Header -->
+    <header class="mb-16">
+      <h1 class="text-4xl font-bold tracking-tight">Sanjay Mundhra</h1>
+      <p class="mt-2 text-xl text-slate-600">
+        Lead Technologist · Laravel & PHP Specialist · Remote-ready
+      </p>
+
+      <p class="mt-6 max-w-3xl text-lg text-slate-700">
+        Lead Technologist with 10+ years of experience building scalable, secure,
+        and high-performance web applications. Strong expertise in Laravel-based
+        backend systems, system design, and cloud-ready architectures.
+        Comfortable leading teams while remaining deeply hands-on with code.
+      </p>
+    </header>
+
+    <!-- Skills -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold mb-6">Core Skills</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="px-4 py-2 bg-white shadow rounded-lg">Laravel</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">PHP</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">MySQL</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">JavaScript</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">Vue.js</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">Redis</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">Docker</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">AWS</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">REST APIs</span>
+        <span class="px-4 py-2 bg-white shadow rounded-lg">System Design</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-16">
+      <h2 class="text-2xl font-semibold mb-8">Selected Projects</h2>
+
+      <div class="grid gap-10 md:grid-cols-2">
+
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl shadow p-6">
+          <img src="images/dividebuy.png" alt="Fintech Platform"
+               class="rounded-lg mb-4 border">
+          <h3 class="text-xl font-semibold mb-2">Fintech Payment Platform</h3>
+          <p class="text-slate-700 mb-3">
+            Worked on a large-scale fintech platform handling payment flows,
+            third-party integrations, and high-volume traffic. Improved latency,
+            refactored backend architecture, and enhanced system reliability.
+          </p>
+          <p class="text-sm text-slate-500">
+            Laravel · PHP · MySQL · Redis · AWS
+          </p>
         </div>
 
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>Designed and developed scalable Laravel applications used in production.</li>
-            <li>Led backend architecture, performance optimization, and API integrations.</li>
-            <li>Worked on fintech payment flows, sports-tech platforms, and data-driven systems.</li>
-            <li>Mentored developers, reviewed code, and enforced best engineering practices.</li>
-        </ul>
-
-        <h2>Contact</h2>
-        <p>
-            Email: <a href="mailto:sanjaymundhra1988@gmail.com">sanjaymundhra1988@gmail.com</a><br>
-            LinkedIn: <a href="https://www.linkedin.com/in/sanjay-mundhra" target="_blank">linkedin.com/in/sanjay-mundhra</a>
-        </p>
-
-        <div class="footer">
-            © 2026 Sanjay Mundhra
+        <!-- Project 2 -->
+        <div class="bg-white rounded-xl shadow p-6">
+          <img src="images/pgti.png" alt="Sports Tech Platform"
+               class="rounded-lg mb-4 border">
+          <h3 class="text-xl font-semibold mb-2">Sports-Tech Tournament Platform</h3>
+          <p class="text-slate-700 mb-3">
+            Designed and maintained APIs for a tournament platform with live
+            traffic spikes. Implemented caching and optimized queries to support
+            real-time updates during events.
+          </p>
+          <p class="text-sm text-slate-500">
+            Laravel · MySQL · Redis · JavaScript
+          </p>
         </div>
-    </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-xl shadow p-6">
+          <img src="images/ecommerce.png" alt="Ecommerce Platform"
+               class="rounded-lg mb-4 border">
+          <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+          <p class="text-slate-700 mb-3">
+            Developed backend services for product management, checkout flows,
+            and third-party integrations with a focus on maintainable architecture
+            and performance.
+          </p>
+          <p class="text-sm text-slate-500">
+            Laravel · PHP · MySQL · JavaScript
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="mb-20">
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <p class="text-lg">
+        📧 <a href="mailto:sanjaymundhra1988@gmail.com"
+             class="text-blue-600 hover:underline">
+          sanjaymundhra1988@gmail.com
+        </a>
+      </p>
+      <p class="text-lg mt-2">
+        🔗 <a href="https://www.linkedin.com/in/sanjay-mundhra"
+             target="_blank"
+             class="text-blue-600 hover:underline">
+          linkedin.com/in/sanjay-mundhra
+        </a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-slate-500 text-sm">
+      © 2026 Sanjay Mundhra · Lead Technologist
+    </footer>
+
+  </div>
+
 </body>
 </html>
